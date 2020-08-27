@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/04abd5afce.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="" />
+    <link id="theme-style" rel="stylesheet" href="" />
+    <title>Strona Portfolio</title>
+  </head>
+  <body>
+    <section class="s1">
+      <div class="change-nav">
+        <!--  Do Ogarniecia -->
+        <div class="language">
+          <button onclick="myFunction()" class="dropbtn">ENG/PL</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">English</a>
+            <a href="index2.html">Polski</a>
+          </div>
+        </div>
+
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div id="dot-1" class="browser-dot"></div>
+
+              <div id="dot-2" class="browser-dot"></div>
+
+              <div id="dot-3" class="browser-dot"></div>
+            </div>
+            <div id="navigation">
+              <ul>
+                <li><a href="#about">Informacje</a></li>
+                <li><a href="#Pro">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="left-column">
+            <img id="profile_pic" src="img/portrait.jpg" />
+            <div class="greetin-wrapper">
+              <h1>Sebastian Proszek</h1>
+            </div>
+            <!-- <h5 style="text-align: center; line-height: 0;">
+              Personalize Theme
+            </h5> -->
+
+            <!-- <div id="theme-options-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+            </div>
+            <p id="settings-note">
+              Theme settings will be saved for <br />your next visit
+            </p> -->
+          </div>
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div id="corner-tl" class="corner"></div>
+                <div id="corner-tr" class="corner"></div>
+                <h3>Front-End Web Developer</h3>
+                <p>Z pasja do nauki i rozwoju</p>
+                <div id="corner-br" class="corner"></div>
+                <div id="corner-bl" class="corner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>Wiecej o mnie</h4>
+            <p>
+              Witaj, Jestem Sebastian i mam 23 lata. Uwielbiam rozwiazywac
+              skomplikowane problemy i zmieniac je na proste rozwiazania.
+              Dodatkowo dokladnie sprawdzam jakosc mojej pracy i zawsze darze do
+              tego aby pistac elegancki i wydajny kod.
+            </p>
+
+            <hr />
+            <h4>Umiejetnosci</h4>
+
+            <p>
+              Ciezko mi okreslic poziom moich umiejetnosci, poniewaz nie mam
+              doswiadczenia w pracy komercyjnej. Najwieksza wiedze mam w: HTML,
+              CSS , SASS, Javascript i React. Jestem pewny, ze bede w stanie
+              zrobic male ale interesujace i funkcjonalne aplikacje i strony
+              internetowe. Dodatkowo chcialbym dodac ze mam tez doswiadczenie w
+              uzywaniu narzedzi typu git,webpack czy npm. Jesli jestes
+              zainteresowany i chcesz uzyskac jakies dodatkowe informacje o
+              moich umiejetnosciach to swietnie, po prostu rzuc okiem na moje
+              projekty i jesli ci sie spodobaja to prosze o kontakt przez social
+              media lub kontakt na dole strony. Oczywiscie mozesz tez sprawdzic
+              moje CV ktore jest tutaj:
+              <a href="Resume.pdf" target="_blank">CV</a>
+            </p>
+
+            <div id="skills">
+              <i class="fab fa-html5" style="color: #e34f26"></i>
+              <i
+                class="fab fa-css3-alt"
+                style="color: rgba(27, 147, 202, 0.884)"
+              ></i>
+              <i class="fab fa-js" style="color: #f7df1e"></i>
+              <i class="fab fa-sass" style="color: #c69"></i>
+              <i class="fab fa-react" style="color: #00d8ff"></i>
+            </div>
+          </div>
+          <hr />
+          <div class="social-links">
+            <!-- <img id="social_img" src="img/project1.jpg" alt="" /> -->
+            <h4>Znajdz mnie na ...</h4>
+            <a
+              href="https://www.linkedin.com/in/sebastian-proszek-b996891b1/"
+              target="_blank"
+              >Linkedin</a
+            >
+            <br />
+            <a href="https://www.facebook.com/sebastian.prochu" target="_blank"
+              >Facebok</a
+            >
+            <br />
+            <a href="https://github.com/Prochuu" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Pro" class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center">Moje poprzednie projekty</h3>
+
+        <div id="post-wrapper">
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="img/project1.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Post title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  corrupti, nobis officiis repellat sequi asperiores cumque
+                  consequatur enim veniam id?
+                </p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="img/project2.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Post title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  corrupti, nobis officiis repellat sequi asperiores cumque
+                  consequatur enim veniam id?
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="img/project3.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Post title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  corrupti, nobis officiis repellat sequi asperiores cumque
+                  consequatur enim veniam id?
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="s2">
+      <div class="main-container">
+        <h3 style="text-align: center">Kontakt</h3>
+
+        <form id="contact-form">
+          <label for="name">Imie</label>
+          <input type="text" name="name" class="input-field" />
+
+          <label for="subject">Temat</label>
+          <input type="text" name="subject" class="input-field" />
+
+          <label for="email">Email</label>
+          <input type="text" name="email" class="input-field" />
+
+          <label for="message">Wiadomosc</label>
+          <textarea name="message" class="input-field"></textarea>
+
+          <input id="submit-btn" type="submit" value="Wyslij" />
+        </form>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <a href="https://github.com/Prochuu" target="_blank"
+        ><i class="fab fa-github fa-2x"></i
+      ></a>
+      <a href="https://www.facebook.com/sebastian.prochu" target="_blank"
+        ><i class="fab fa-facebook fa-2x"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/sebastian-proszek-b996891b1/"
+        target="_blank"
+        ><i class="fab fa-linkedin fa-2x"></i
+      ></a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
